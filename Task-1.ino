@@ -10,6 +10,8 @@
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT); // Create display object
 
+int reading; // Variable to store LDR reading
+
 void setup() {
   // Initialize pin modes
   pinMode(LED_PIN, OUTPUT);
@@ -22,8 +24,6 @@ void setup() {
     for(;;); // Infinite loop to stop code execution if display fails to initialize
   }
 }
-
-int reading; // Variable to store LDR reading
 
 void loop() {
   // Read LDR value
