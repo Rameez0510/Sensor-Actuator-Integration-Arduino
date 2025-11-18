@@ -8,7 +8,7 @@
 #define LED_PIN 8            // Pin connected to LED
 #define LDR_PIN A0           // Analog pin connected to LDR
 
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT); // Create display object
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1); // Create display object
 
 int reading; // Variable to store LDR reading
 
