@@ -46,7 +46,7 @@ The circuit diagram for this task is:
     ```
 3. An instance of the OLED display is created:
    ```cpp
-    Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT);
+    Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
     ```
 4. A variable to store the sensor value is defined:
     ```cpp
