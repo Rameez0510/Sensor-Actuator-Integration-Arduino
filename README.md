@@ -103,5 +103,4 @@ The circuit diagram for this task is:
         ```cpp
         delay(200);
         ```
-## Video Demonstration
-The video [demonstaration.mp4](demonstration.mp4) shows the working of this project.
+
